@@ -4,9 +4,11 @@
   "description": "",
   "main": "server.js",
   "type": "module",
-  "scripts": {
+ "scripts": {
   "start": "node server.js",
   "server": "nodemon server.js"
+
+
 
 
   },
