@@ -1,4 +1,6 @@
 import express from "express";
+import bcrypt from "bcryptjs";
+
 import { loginUser, registerUser } from "../controllers/userController.js";
 
 const userRouter = express.Router();
